@@ -3,7 +3,6 @@ body {
 }
 
 /* Containers */
-
 .container-wrapper {}
 
 .container-wrapper--red {
@@ -15,17 +14,14 @@ body {
 
 .callout-container {
     height: 100vh;
-
     background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -44,7 +40,6 @@ body {
 }
 
 /* Navbar */
-
 .navalert-container {
     position: absolute;
     top: 0;
@@ -73,9 +68,7 @@ body {
     font-weight: bold;
 }
 
-
 /* Jumbotron */
-
 .jumbotron {
     background-color: transparent;
 }
@@ -84,7 +77,6 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    color: white;
 }
 
 .jumbotron .lead {
@@ -99,7 +91,6 @@ body {
 }
 
 /* Block dividers */
-
 .block-divider {
     width: 75px;
     height: 5px;
@@ -120,7 +111,6 @@ body {
 }
 
 /* Buttons */
-
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -143,7 +133,6 @@ body {
 }
 
 /* Alert */
-
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -160,7 +149,6 @@ body {
 }
 
 /* Page Headers */
-
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -172,13 +160,11 @@ body {
 }
 
 /* Quotes */
-
 .quotes .page-header {
     margin-bottom: 25px;
 }
 
 /* Features */
-
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -220,7 +206,7 @@ body {
 .about .page-header h2,
 .signin-signup .page-header h2 {
     margin-top: 0;
-    color: #f05f40; /* Adjust color to match theme */
+    color: #f05f40;
 }
 
 /* Form Container */
