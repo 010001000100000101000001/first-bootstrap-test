@@ -3,6 +3,7 @@ body {
 }
 
 /* Containers */
+
 .container-wrapper {}
 
 .container-wrapper--red {
@@ -14,14 +15,17 @@ body {
 
 .callout-container {
     height: 100vh;
+
     background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
     display: flex;
     align-items: center;
     justify-content: center;
+
     position: relative;
 }
 
@@ -40,6 +44,7 @@ body {
 }
 
 /* Navbar */
+
 .navalert-container {
     position: absolute;
     top: 0;
@@ -66,9 +71,12 @@ body {
 
 .navbar .navbar-nav a {
     font-weight: bold;
+    color: white; /* Adjusted to match index.html */
 }
 
+
 /* Jumbotron */
+
 .jumbotron {
     background-color: transparent;
 }
@@ -91,6 +99,7 @@ body {
 }
 
 /* Block dividers */
+
 .block-divider {
     width: 75px;
     height: 5px;
@@ -111,6 +120,7 @@ body {
 }
 
 /* Buttons */
+
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -133,6 +143,7 @@ body {
 }
 
 /* Alert */
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -149,6 +160,7 @@ body {
 }
 
 /* Page Headers */
+
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -157,14 +169,17 @@ body {
 
 .page-header h2 {
     margin-top: 0;
+    color: #f05f40; /* Adjusted to match index.html */
 }
 
 /* Quotes */
+
 .quotes .page-header {
     margin-bottom: 25px;
 }
 
 /* Features */
+
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -184,58 +199,4 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
-}
-
-/* Additional styles for about.html and signin_signup.html */
-
-/* Content Section */
-.about .content-container,
-.signin-signup .content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-/* Page Header */
-.about .page-header,
-.signin-signup .page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.about .page-header h2,
-.signin-signup .page-header h2 {
-    margin-top: 0;
-    color: #f05f40;
-}
-
-/* Form Container */
-.signin-signup .form-container {
-    margin-top: 50px;
-    text-align: center;
-}
-
-/* Form Input */
-.signin-signup input[type="email"],
-.signin-signup input[type="password"],
-.signin-signup input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-/* Form Button */
-.signin-signup input[type="submit"] {
-    background-color: #f05f40;
-    color: white;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-}
-
-.signin-signup input[type="submit"]:hover {
-    background-color: #df4929;
 }
