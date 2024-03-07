@@ -199,3 +199,57 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
+/* Additional styles for about.html and signin_signup.html */
+
+/* Content Section */
+.about .content-container,
+.signin-signup .content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Page Header */
+.about .page-header,
+.signin-signup .page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.about .page-header h2,
+.signin-signup .page-header h2 {
+    margin-top: 0;
+    color: #f05f40; /* Adjust color to match theme */
+}
+
+/* Form Container */
+.signin-signup .form-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Form Input */
+.signin-signup input[type="email"],
+.signin-signup input[type="password"],
+.signin-signup input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Form Button */
+.signin-signup input[type="submit"] {
+    background-color: #f05f40;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.signin-signup input[type="submit"]:hover {
+    background-color: #df4929;
+}
